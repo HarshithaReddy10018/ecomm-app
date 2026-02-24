@@ -1,0 +1,292 @@
+ /* ===== Global =====
+body {
+  margin: 0;
+  font-family: 'Times New Roman';
+  background-color: #91b26c;
+
+}
+
+/* ===== Header ===== */
+/*{header {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1000;
+  font-style: italic;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 20px;
+  color: white;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #0ef30a;
+}
+
+/* Username display */
+/*#user-display {
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* ===== Footer ===== */
+/*footer {
+  text-align: center;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* ===== Home Content ===== */
+/*.content {
+  text-align: center;
+  padding-top: 140px;
+  padding-bottom: 60px;
+  background: linear-gradient(to right, pink, #2e3de5);
+  color: rgb(15, 11, 11);
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 30px;
+  background-color: white;
+  color: #0b0306;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #f3f3f3;
+}
+
+/* ===== Highlights ===== */
+/*.highlights {
+  background: rgb(112, 228, 176);
+  padding: 30px;
+  margin: 40px auto 80px;
+  width: 80%;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.highlights h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.highlights ul {
+  list-style: none;
+  padding: 0;
+}
+
+.highlights ul li {
+  font-size: 18px;
+  padding: 8px 0;
+}
+
+/* ===== Products Page ===== */
+/*.products {
+  padding: 140px 40px 120px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+  background-color: #91b26c;
+}
+
+/* ===== Product Card ===== */
+/*.card {
+  background: rgb(245, 200, 200);
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+}
+
+.card h3 {
+  margin: 15px 0 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card p {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* ===== Button ===== */
+/*.card button {
+  background: rgb(144, 34, 191);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.card button:hover {
+  background: darkgreen;
+}
+
+/* ===== Login Page ===== */
+/*input {
+  padding: 8px;
+  width: 220px;
+}
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+} */
+/* ===== Global ===== */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f2f2f2; /* light grey background */
+}
+
+/* ===== Header ===== */
+header {
+  background-color: #1e1e1e; /* dark black */
+  color: white;
+  padding: 12px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 18px;
+  font-size: 18px;
+  color: white;
+}
+
+nav a:hover {
+  color: #ff9800; /* orange hover */
+}
+
+/* ===== Hero Section ===== */
+.content {
+  text-align: center;
+  padding: 150px 20px 80px;
+  background: linear-gradient(to right, #ff8c00, #e91e63);
+  /* orange → pink gradient */
+  color: white;
+}
+
+.content h2 {
+  font-size: 36px;
+}
+
+.content p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* ===== Shop Button ===== */
+.btn {
+  display: inline-block;
+  margin-top: 30px;
+  background-color: white;
+  color: #e91e63;
+  padding: 12px 28px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #f5f5f5;
+}
+
+/* ===== Highlights Section ===== */
+.highlights {
+  background: #ffd700; /* yellow box */
+  padding: 40px;
+  margin: 60px auto;
+  width: 80%;
+  text-align: center;
+  border-radius: 12px;
+}
+
+/* ===== Products Grid ===== */
+.products {
+  padding: 140px 40px 120px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+/* ===== Product Card ===== */
+.card {
+  background: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.card h3 {
+  margin: 15px 0 10px;
+}
+
+.card p {
+  font-weight: bold;
+}
+
+/* ===== Card Button ===== */
+.card button {
+  background: #9c27b0; /* purple button */
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.card button:hover {
+  background: darkgreen;
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #1e1e1e;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
